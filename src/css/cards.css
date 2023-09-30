@@ -6,7 +6,7 @@
     transition: 1s ease;
     cursor: pointer;
     display: block;
-    
+    margin-left: 10px;
 }
 
 #title {
