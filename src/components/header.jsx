@@ -13,23 +13,23 @@ const Header = () => {
                 <input type="text" placeholder='Поиск' />
             </div>
             <div id='nav'>
-                <Link >Отзывы</Link>
-                <Link >О нас</Link>
-                <button>Начать Обучение</button>
+                <Link to="/reviews" >Отзывы</Link>
+                <Link to="/AboutUs" >О нас</Link>
+                <Link to="/auth">Зарегистрироваться/войти</Link>
             </div>
         </div>
         <div id='HeaderLeft'>
-            <h1>Logo</h1>
+            <h1><Link to="/">Logo</Link></h1>
             <p>Обучение</p>
-            <Link>Новости</Link>
-            <Link>Курсы</Link>
-            <Link>Игры</Link>
-            <Link>Задачи</Link>
+            <Link to="/news">Новости</Link>
+            <Link to="/courses">Курсы</Link>
+            <Link to="/game">Игры</Link>
+            <Link to="/task">Задачи</Link>
             <p>Форум</p>
-            <Link>Пользователи</Link>
-            <Link>Форум</Link>
-            <Link>Чат</Link>
-            <Link>Отзывы</Link>
+            <Link to="/peeple">Пользователи</Link>
+            <Link to="/forum">Форум</Link>
+            <Link to="/chat">Чат</Link>
+            <Link to="/reviews">Отзывы</Link>
         </div>
         </>
     )
