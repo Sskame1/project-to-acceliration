@@ -1,0 +1,46 @@
+#cards {
+    background-color: #c5c5c5;
+    width: 16em;
+    height: 24em;
+    border-radius: 10px;
+    transition: 1s ease;
+    cursor: pointer;
+    display: block;
+    
+}
+
+#title {
+    background-color: #a0a0a0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#desc {
+    background-color: #b8b8b8;
+    border-radius: 10px 10px 0 0  ;
+    margin-top: 12px;
+    margin-left: 12px;
+    width: 230px;
+    height: 104px;
+}
+
+#img-card {
+    margin-left: 12px;
+    pointer-events: none;
+}
+
+#img-card p {
+    margin-bottom: -10px;
+}
+
+#img-card img {
+    border-radius: 10px;
+    width: 230px;
+    pointer-events: none;
+}
+
+
+#cards:hover {
+    transform: scale(1.1);
+}

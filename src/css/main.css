@@ -1,0 +1,16 @@
+#main {
+    /* background-color: rgb(117, 117, 117); */
+    width: 90em;
+    height: 500em;
+    margin-left: 20em;
+    padding-top: 5em;
+    display: block;
+}
+
+#container {
+    /* background-color: black; */
+    width: 90em;
+    height: 76em;
+    display: flex;
+    flex-wrap: wrap;
+}
